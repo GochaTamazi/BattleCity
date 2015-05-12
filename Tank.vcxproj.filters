@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Class.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tank.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Grass.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Brick.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 %281%29.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Water (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Water (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Concrete.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Wals\Wall_Ice.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_0.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_0.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_3.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_4.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_5.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Bullet\Bullet (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Bullet\Bullet (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Bullet\Bullet (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Bullet\Bullet (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\Menu_1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\Menu_2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\PAUSE.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\GAMEOVER.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (1).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (2).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (3).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (4).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (5).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (6).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (7).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (8).bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\WINER_1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Sprites\Menu\WINER_2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="sprites\player_1\type 4\icon1.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>

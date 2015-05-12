@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6091360E-B6FE-4317-A414-AFC6216F9008}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Tank</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="Lib.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tank.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sprites\Bullet\Bullet (1).bmp" />
+    <None Include="Sprites\Bullet\Bullet (2).bmp" />
+    <None Include="Sprites\Bullet\Bullet (3).bmp" />
+    <None Include="Sprites\Bullet\Bullet (4).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (1).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (2).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (3).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (4).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (5).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (6).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (7).bmp" />
+    <None Include="Sprites\Enemy\Type 1\Enemy_T_1 (8).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (1).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (2).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (3).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (4).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (5).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (6).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (7).bmp" />
+    <None Include="Sprites\Enemy\Type 2\Enemy_T_2 (8).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (1).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (2).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (3).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (4).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (5).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (6).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (7).bmp" />
+    <None Include="Sprites\Enemy\Type 3\Enemy_T_3 (8).bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_0.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_1.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_2.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_3.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_4.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Big\Explosion_Big_5.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_0.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_1.bmp" />
+    <None Include="Sprites\Explosions\Explosion_Small\Explosion_Small_2.bmp" />
+    <None Include="Sprites\Menu\GAMEOVER.bmp" />
+    <None Include="Sprites\Menu\Menu_1.bmp" />
+    <None Include="Sprites\Menu\Menu_2.bmp" />
+    <None Include="Sprites\Menu\PAUSE.bmp" />
+    <None Include="Sprites\Menu\WINER_1.bmp" />
+    <None Include="Sprites\Menu\WINER_2.bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 %281%29.bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (2).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (3).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (4).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (5).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (6).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (7).bmp" />
+    <None Include="Sprites\Player_1\Type 1\Player_1_T_1 (8).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (1).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (2).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (3).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (4).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (5).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (6).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (7).bmp" />
+    <None Include="Sprites\Player_1\Type 2\Player_1_T_2 (8).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (1).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (2).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (3).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (4).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (5).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (6).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (7).bmp" />
+    <None Include="Sprites\Player_1\Type 3\Player_1_T_3 (8).bmp" />
+    <None Include="sprites\player_1\type 4\icon1.ico" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (1).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (2).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (3).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (4).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (5).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (6).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (7).bmp" />
+    <None Include="Sprites\Player_1\Type 4\Player_1_T_4 (8).bmp" />
+    <None Include="Sprites\Wals\Wall_Brick.bmp" />
+    <None Include="Sprites\Wals\Wall_Concrete.bmp" />
+    <None Include="Sprites\Wals\Wall_Grass.bmp" />
+    <None Include="Sprites\Wals\Wall_Ice.bmp" />
+    <None Include="Sprites\Wals\Wall_Water (1).bmp" />
+    <None Include="Sprites\Wals\Wall_Water (2).bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
