@@ -1,152 +1,22 @@
-﻿Build started 12.05.2018 22:01:21.
-     1>Project "C:\Users\Zippocat\Downloads\1\Tanki\29_1\Tank.vcxproj" on node 2 (Build target(s)).
+﻿Build started 13.05.2015 00:42:33.
+     1>Project "C:\Users\Zippocat\Downloads\1\BattleCity\28\Tank.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Class.cpp Main.cpp
          Main.cpp
          Class.cpp
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(93): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(93): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(103): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(103): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(113): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(113): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(114): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(114): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(127): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(127): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(137): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(137): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(148): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(148): error C2065: 'i' : undeclared identifier
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(148): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(162): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(162): error C2065: 'i' : undeclared identifier
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(162): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(203): error C2143: syntax error : missing ')' before ';'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(203): error C2065: 'i' : undeclared identifier
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(203): error C2059: syntax error : ')'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(385): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(395): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(398): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(398): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(403): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(408): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(408): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(448): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(455): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(493): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(497): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(497): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(499): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(499): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(505): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(515): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(517): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(519): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(519): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(523): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(539): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(543): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(558): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(560): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(560): error C2088: '==' : illegal for class
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(564): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(581): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(585): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const type_info' (or there is no acceptable conversion)
-                 c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h(192): could be 'bool operator ==(const GUID &,const GUID &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(const type_info, const type_info)'
-     1>c:\users\zippocat\downloads\1\tanki\29_1\class.cpp(623): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zippocat\downloads\1\battlecity\28\class.cpp(385): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zippocat\downloads\1\battlecity\28\class.cpp(395): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zippocat\downloads\1\battlecity\28\class.cpp(493): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zippocat\downloads\1\battlecity\28\class.cpp(515): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zippocat\downloads\1\battlecity\28\class.cpp(623): warning C4018: '<' : signed/unsigned mismatch
          Generating Code...
-     1>Done Building Project "C:\Users\Zippocat\Downloads\1\Tanki\29_1\Tank.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zippocat\Downloads\1\BattleCity\28\Debug\Tank.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Zippocat\Downloads\1\BattleCity\28\Debug\Tank.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zippocat\Downloads\1\BattleCity\28\Debug\Tank.lib" /MACHINE:X86 Debug\Tank.res
+         Debug\Class.obj
+         Debug\Main.obj
+         Tank.vcxproj -> C:\Users\Zippocat\Downloads\1\BattleCity\28\Debug\Tank.exe
+     1>Done Building Project "C:\Users\Zippocat\Downloads\1\BattleCity\28\Tank.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:02.43
+Time Elapsed 00:00:02.14
