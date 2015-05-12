@@ -150,8 +150,8 @@ CExplosion_Small::CExplosion_Small(INT x,INT y,HWND hmain,HDC main,HDC buf):CObj
 }
 void CExplosion_Small::Show()
 {
-	if(iTIMER<3)
-		CObject::Show(hBmp[iTIMER]);
+	if(iTIMER<6)
+		CObject::Show(hBmp[iTIMER/2]);
 	iTIMER++;
 }
 
@@ -164,8 +164,8 @@ CExplosion_Big::CExplosion_Big(INT x,INT y,HWND hmain,HDC main,HDC buf):CObject(
 }
 void CExplosion_Big::Show()
 {
-	if(iTIMER<6)
-		CObject::Show(hBmp[iTIMER]);
+	if(iTIMER<12)
+		CObject::Show(hBmp[iTIMER/2]);
 	iTIMER++;
 }
 
@@ -382,8 +382,13 @@ CLevel::CLevel(HWND hwnd)
 }
 CLevel::~CLevel()
 {
+	for(int i=0;i<AllObj.size();i++)
+		delete AllObj[i];
+	for(int i=0;i<6;i++)
+		DeleteObject(hBmp[i]);
 	DeleteObject(hBUFFER);
 	DeleteDC(BUF);
+	DeleteDC(MAIN);
 }
 void CLevel::Action()
 {
@@ -400,6 +405,8 @@ void CLevel::Action()
 			}
 			else
 				Check_Move(AllObj[i]);
+		if(typeid(*AllObj[i])==typeid(CPlayer_Tank)||typeid(*AllObj[i])==typeid(CEnemy_Tank))
+		{
 			if(AllObj[i]->Bull==NULL&&AllObj[i]->bBull==TRUE)//Если CUR выстрелил но пуля еще не создана
 			{
 				INT X,Y;
@@ -424,8 +431,6 @@ void CLevel::Action()
 				}
 				AllObj[i]->Bull=new CBullet(X,Y,AllObj[i]->hMAIN,AllObj[i]->MAIN,AllObj[i]->BUF,AllObj[i]->iSpeed*2,AllObj[i]->iDir);
 			}
-			else
-				Check_Bul(AllObj[i]);
 			if(AllObj[i]->Bull!=NULL)//Если CUR выстрелил и пуля создана
 			{
 				AllObj[i]->Bull->Move();
@@ -436,15 +441,18 @@ void CLevel::Action()
 					AllObj[i]->Bull=NULL;
 					AllObj[i]->bBull=FALSE;
 				}
+				else
+					Check_Bul(AllObj[i]);
 			}
-		if(typeid(*AllObj[i])==typeid(CExplosion_Small)&&AllObj[i]->iTIMER>3)
+			}
+		if(typeid(*AllObj[i])==typeid(CExplosion_Small)&&AllObj[i]->iTIMER>6)
 		{
 				delete AllObj[i];
 				itrAll=AllObj.begin();
 				AllObj.erase(itrAll+i);
 				i--;
 		}
-		if(typeid(*AllObj[i])==typeid(CExplosion_Big)&&AllObj[i]->iTIMER>6)
+		if(typeid(*AllObj[i])==typeid(CExplosion_Big)&&AllObj[i]->iTIMER>12)
 		{
 				delete AllObj[i];
 				itrAll=AllObj.begin();
@@ -506,8 +514,6 @@ void CLevel::Check_Bul(CObject *CUR)
 {
 	for(int i=0;i<AllObj.size();i++)
 	{
-		if(CUR->Bull!=NULL)
-		{
 			if(typeid(*CUR)==typeid(CPlayer_Tank))
 			{
 				if(typeid(*AllObj[i])==typeid(CEnemy_Tank)||typeid(*AllObj[i])==typeid(CConcrete)||typeid(*AllObj[i])==typeid(CBrick))
@@ -544,6 +550,7 @@ void CLevel::Check_Bul(CObject *CUR)
 						delete CUR->Bull;
 						CUR->Bull=NULL;
 						CUR->bBull=FALSE;
+						break;
 						return;
 					}
 				}
@@ -585,11 +592,11 @@ void CLevel::Check_Bul(CObject *CUR)
 						delete CUR->Bull;
 						CUR->Bull=NULL;
 						CUR->bBull=FALSE;
+						break;
 						return;
 					}
 				}
 			}
-		}
 	}
 }
 bool CLevel::Menu()
@@ -1014,4 +1021,49 @@ void CLevel::GAME_OVER()
 	}
 	while(!GetAsyncKeyState(VK_ESCAPE));
 	PostQuitMessage(0);
+}
+CGrass::~CGrass()
+{
+	DeleteObject(hBmp);
+}
+CBrick::~CBrick()
+{
+	DeleteObject(hBmp);
+}
+CWater::~CWater()
+{
+	DeleteObject(hBmp);
+}
+CConcrete::~CConcrete()
+{
+	DeleteObject(hBmp);
+}
+CIce::~CIce()
+{
+	DeleteObject(hBmp);
+}
+CExplosion_Small::~CExplosion_Small()
+{
+	for(int i=0;i<3;i++)
+		DeleteObject(hBmp[i]);
+}
+CExplosion_Big::~CExplosion_Big()
+{
+	for(int i=0;i<6;i++)
+		DeleteObject(hBmp[i]);
+}
+CBullet::~CBullet()
+{
+	for(int i=0;i<4;i++)
+		DeleteObject(hBmp[i]);
+}
+CPlayer_Tank::~CPlayer_Tank()
+{
+	for(int i=0;i<8;i++)
+		DeleteObject(hBmp[i]);
+}
+CEnemy_Tank::~CEnemy_Tank()
+{
+	for(int i=0;i<8;i++)
+		DeleteObject(hBmp[i]);
 }

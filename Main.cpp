@@ -11,10 +11,10 @@ INT WINAPI WinMain(HINSTANCE hInst,HINSTANCE hPrew,LPSTR lpsz,INT nShow)
 	wnd.cbClsExtra=0;
 	wnd.cbWndExtra=0;
 	wnd.hInstance=hInst;
-	wnd.hIcon=LoadIcon(NULL,IDI_APPLICATION);
+	wnd.hIcon=LoadIcon(NULL,MAKEINTRESOURCE(IDI_ICON1));
 	wnd.hCursor=LoadCursor(NULL,IDC_ARROW);
 	wnd.lpszMenuName=NULL;
-	wnd.hIconSm=NULL;
+	wnd.hIconSm=LoadIcon(NULL,MAKEINTRESOURCE(IDI_ICON1));
 	wnd.hbrBackground=(HBRUSH)GetStockObject(WHITE_BRUSH);
 	wnd.lpszClassName=L"Мой оконный класс";
 	if(!RegisterClassEx(&wnd))

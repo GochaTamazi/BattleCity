@@ -39,6 +39,7 @@ public:
 	friend class CLevel;
 	CGrass(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CGrass();
 };
 
 class CBrick:public CObject
@@ -48,6 +49,7 @@ public:
 	friend class CLevel;
 	CBrick(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CBrick();
 };
 
 class CWater:public CObject
@@ -57,6 +59,7 @@ public:
 	friend class CLevel;
 	CWater(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CWater();
 };
 
 class CConcrete:public CObject
@@ -66,6 +69,7 @@ public:
 	friend class CLevel;
 	CConcrete(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CConcrete();
 };
 
 class CIce:public CObject
@@ -75,6 +79,7 @@ public:
 	friend class CLevel;
 	CIce(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CIce();
 };
 
 class CExplosion_Small:public CObject
@@ -84,6 +89,7 @@ public:
 	friend class CLevel;
 	CExplosion_Small(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CExplosion_Small();
 };
 
 class CExplosion_Big:public CObject
@@ -93,6 +99,7 @@ public:
 	friend class CLevel;
 	CExplosion_Big(INT x,INT y,HWND hmain,HDC main,HDC buf);
 	void Show();
+	~CExplosion_Big();
 };
 
 class CBullet:public CObject
@@ -103,6 +110,7 @@ public:
 	CBullet(INT x,INT y,HWND hmain,HDC main,HDC buf,INT ispeed,INT idir);
 	void Move();
 	void Show();
+	~CBullet();
 };
 
 class CPlayer_Tank:public CObject
@@ -113,6 +121,7 @@ public:
 	CPlayer_Tank(INT x,INT y,HWND hmain,HDC main,HDC buf,int type);
 	void Move();
 	void Show();
+	~CPlayer_Tank();
 };
 
 class CEnemy_Tank:public CObject
@@ -124,6 +133,7 @@ public:
 	CEnemy_Tank(INT x,INT y,HWND hmain,HDC main,HDC buf,INT Type);
 	void Move();
 	void Show();
+	~CEnemy_Tank();
 };
 
 class CLevel
